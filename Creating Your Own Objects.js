@@ -23,8 +23,8 @@ function main() {
 
 }
 
-function Flight(flightNumber, status) {
+function Flight(number, status) {
     //fix the constructor
-    number = flightNumber;
-    status = status;
+    this.number = number;
+    this.status = status;
 };
