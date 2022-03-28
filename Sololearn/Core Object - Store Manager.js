@@ -8,7 +8,6 @@ Use a loop to iterate through the array and increase all items.
 function main() {
     var increase = parseInt(readLine(), 10);
     var prices = [98.99, 15.2, 20, 1026];
-    //your code goes here
     for (i = 0; i < prices.length; i++) {
         var result = prices[i] + increase;
         prices[i] = result;

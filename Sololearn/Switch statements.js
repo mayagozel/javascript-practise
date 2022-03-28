@@ -16,14 +16,6 @@ Don't forget to use break for each case statement.
 
 function main() {
     var themeNumber = parseInt(readLine(), 10)
-        /*
-        1 - Light
-        2 - Dark
-        3 - Nocturne
-        4 - Terminal
-        5 - Indigo
-        */
-        // Your code here
     switch (themeNumber) {
         case 1:
             console.log("Light");

@@ -13,12 +13,10 @@ The method toFixed is used to round the number to keep only the decimals given a
 function main() {
     var r = parseInt(readLine(), 10)
 
-    //the output
     console.log(calcCirc(r).toFixed(2));
 
 }
 
-//complete the function
 function calcCirc(r) {
     return r * 2 * Math.PI;
 }

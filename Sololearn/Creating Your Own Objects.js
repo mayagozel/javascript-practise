@@ -11,20 +11,16 @@ Use new keyword to create a new object using constructor.
 */
 
 function main() {
-    //take flight number and its status
     var flightNumber = readLine();
     var flightStatus = readLine();
 
     var flight1;
-    //assign a flight object to flight1 variable
     flight1 = new Flight(flightNumber, flightStatus);
-    //output
     console.log('The flight ' + flight1.number + ' is ' + flight1.status)
 
 }
 
 function Flight(number, status) {
-    //fix the constructor
     this.number = number;
     this.status = status;
 };

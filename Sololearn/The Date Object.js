@@ -21,7 +21,6 @@ function main() {
 function getWeekDay(year, month, day) {
     var names = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var d = new Date(year, month, day);
-    //complete the function
     var dayOfTheWeek = d.getDay()
     return names[dayOfTheWeek];
 }

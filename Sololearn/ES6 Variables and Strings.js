@@ -20,7 +20,5 @@ function main() {
 }
 
 function countryCard(country, capital) {
-    //complete the function
-    //use backtick (` `) for template literal
     return `Name: ${country}, Capital: ${capital}`;
 }

@@ -12,10 +12,9 @@ Remember to pass the argument when you call the function.
 
 function main() {
     var salaryAmount = parseInt(readLine(), 10);
-    // complete the function call
     getSavings(salaryAmount);
 }
-//complete the function
+
 function getSavings(salaryAmount) {
     console.log(salaryAmount * 15 / 100);
 };

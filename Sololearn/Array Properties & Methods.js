@@ -15,7 +15,6 @@ Notice that the first inputted number can be used as length of an array.
 */
 
 function main() {
-    //take the number of passed levels
     var levels = parseInt(readLine(), 10);
     var points = new Array();
 
@@ -27,8 +26,6 @@ function main() {
     }
 
     var sum = 0;
-    //calculate the sum of points 
     sum = points.reduce((total, amount) => total + amount);
-    //output
     console.log(sum);
 }

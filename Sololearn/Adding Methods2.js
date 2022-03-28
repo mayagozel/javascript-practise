@@ -13,24 +13,20 @@ You should create a new property in the constructor to store the annual income v
 */
 
 function main() {
-    //get the initial amount and the interest percentage
     var amount = parseInt(readLine(), 10);
     var yearPercent = parseInt(readLine(), 10);
 
     var loan1 = new Loan(amount, yearPercent);
 
-    //output to console
     console.log(loan1.yearIncome());
 }
 
 function Loan(amount, percent) {
     this.amount = amount;
     this.yearPercent = percent;
-    //your code goes here
     this.yearIncome = calcYearIncome;
 };
 
 function calcYearIncome() {
-    //complete the function to calculate yearly income
     return this.amount * this.yearPercent / 100;
 }
