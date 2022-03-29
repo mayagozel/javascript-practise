@@ -8,3 +8,16 @@ Sample Output
 3000
 Use the forEach() function to operate with each element of the array.
 */
+
+function main() {
+    var percent = parseInt(readLine(), 10);
+
+    console.log(salaryIncrease(percent));
+}
+
+var salaries = [3000, 7000, 5000, 15000];
+
+const salaryIncrease = percent => {
+    total = salaries.reduce((sum, sal) => sum + sal);
+    return total * percent / 100;
+}
